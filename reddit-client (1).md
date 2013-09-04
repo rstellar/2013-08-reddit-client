@@ -18,7 +18,7 @@ Basic requirements
 * [x] Follow the first 4 steps of [this tutorial](http://www.ng-newsletter.com/posts/beginner2expert-how_to_start.html) and implement these app features:
     * [x ] Create the angular app in `index.html`
     * [x ] Create a `MainController` that controls the home screen
-    * [ ] Inside the `MainController` fetch the latest reddit articles through the [reddit api](http://www.reddit.com/dev/api)
+    * [x] Inside the `MainController` fetch the latest reddit articles through the [reddit api](http://www.reddit.com/dev/api)
     * [ ] Lay out the view in the front-end to display the articles
     * [ ] Add a button that rates up and create the corresponding method
     * [ ] Add a button that rates down and create the corresponding method
