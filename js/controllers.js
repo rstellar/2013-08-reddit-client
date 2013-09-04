@@ -1,6 +1,5 @@
 angular.module('myApp.controllers', [])
 .controller('MainController', ['$scope','$http', function($scope,$http){
-  $scope.foo = 'bar';
   $http({
     method: 'JSONP',
     url: 'http://api.reddit.com/new?jsonp=JSON_CALLBACK'
@@ -10,4 +9,12 @@ angular.module('myApp.controllers', [])
     console.log("JSON Error in Controller.js");
     console.log(data,status,headers,config);
   });
+
+
+  $scope.vote = function(increment){
+    if(increment === 1 || increment === -1){
+      this.article.data.score += increment;
+    }
+  };
+
 }]);
