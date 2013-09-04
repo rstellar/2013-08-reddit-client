@@ -19,7 +19,7 @@ Basic requirements
     * [x ] Create the angular app in `index.html`
     * [x ] Create a `MainController` that controls the home screen
     * [x] Inside the `MainController` fetch the latest reddit articles through the [reddit api](http://www.reddit.com/dev/api)
-    * [ ] Lay out the view in the front-end to display the articles
+    * [x] Lay out the view in the front-end to display the articles
     * [ ] Add a button that rates up and create the corresponding method
     * [ ] Add a button that rates down and create the corresponding method
 * After the afternoon lecture, complete the following:
