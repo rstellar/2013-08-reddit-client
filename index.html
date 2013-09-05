@@ -13,22 +13,9 @@
   <script type="text/javascript" src="js/filters.js"></script>
 </head>
 <body >
- <input type="text" ng-model="yourName" placeholder="Enter a name here">
-<h1>Hi {{yourName}}</h1>
-
-<ul ng-controller="MainController">
-  <li ng-repeat="article in articles">
-    <h4>{{ article.data.score }}</h4>
-    <img ng-src="{{ article.data.thumbnail }}" />
-    <a href="{{ article.data.url }}"> {{ article.data.title }} </a>
-    <p> by {{ article.data.author }} </p>
-    <button ng-click="vote(1)">Upvote</button>
-    <button ng-click="vote(-1)">Downvote</button>
-  </li>
-</ul>
 
 
-
+<div ng-view></div>
 
 </body>
 </html>
