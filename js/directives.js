@@ -1,7 +1,10 @@
 angular.module('myApp.directives', [])
 .directive('newsListing', function(){
-  var directiveObject = {
+  return {
     templateUrl: '../templates/news_listing.html'
   };
-  return directiveObject;
+}).directive('ratingButtons', function() {
+  return {
+    templateUrl: '../templates/rating_buttons.html'
+  };
 });
