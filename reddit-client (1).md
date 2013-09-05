@@ -23,8 +23,8 @@ Basic requirements
     * [x] Add a button that rates up and create the corresponding method
     * [x] Add a button that rates down and create the corresponding method
 * After the afternoon lecture, complete the following:
-    * [ ] Implement the home route (with controller/templates)
-    * [ ] Implement the login route (with controller/templates)
+    * [x] Implement the home route (with controller/templates)
+    * [x] Implement the login route (with controller/templates)
 
 Extra credit: 
 * [ ] Implement a news listing directive
