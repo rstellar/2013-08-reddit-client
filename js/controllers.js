@@ -18,4 +18,9 @@ angular.module('myApp.controllers', [])
   };
 
 }])
-.controller('LoginController', function(){});
+.controller('LoginController', ['$scope', '$location', function($scope, $location){
+  $scope.login = function(){
+    console.log('fake login, redirecting');
+    $location.path('/loggedin');
+  };
+}]);
