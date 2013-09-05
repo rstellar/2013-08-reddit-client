@@ -27,7 +27,7 @@ Basic requirements
     * [x] Implement the login route (with controller/templates)
 
 Extra credit: 
-* [ ] Implement a news listing directive
+* [x] Implement a news listing directive
 * [ ] Refactor your controllers so they don't contain any calls to the reddit api.  Move that code to a [service](http://www.ng-newsletter.com/posts/beginner2expert-services.html) (api [docs](http://docs-angularjs-org-dev.appspot.com/guide/dev_guide.services.understanding_services)).
 * [ ] Add design to the app to make it look nice
 * [ ] Create a rating directive that allows users to rate articles up and down
